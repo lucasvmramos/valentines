@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    --vermelho: #E74646;
+    --vermelho-pastel: #FA9884;
+    --bage-claro: #FFF3E2;
+    --bage-escuro: #FFE5CA;
+    box-sizing: border-box;
+}
+
+.page-container{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bage-escuro);
+}
+
+.imagem{
+    height: 75%;
+    width: 75%;
+    box-shadow: 10px 10px 10px rgb(104, 85, 85);
+}
+
+.textinho{
+    padding:20px 10px;
+    border-radius: 0px 10px 0px 10px;
+    background-color: var(--bage-claro);
+    box-shadow: 10px 10px 10px rgb(184, 142, 142);
+}
